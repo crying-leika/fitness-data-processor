@@ -33,15 +33,26 @@ medium в противном случае.
 
 Формат вывода
 В качестве ответа загрузите преобразованный CSV-файл с запятой в качестве разделителя. Поля в файле должны быть указаны в следующем порядке:
+Порядок столбцов:
 
 user_id
+
 timestamp
+
 cumulative_steps
+
 heart_rate
+
 calories_burned
+
 activity_type
+
 date
+
 hour
+
 steps_this_hour
+
 activity_intensity
+
 Данные должны быть отсортированы сначала по полю user_id, а затем по полю timestamp по возрастанию. Поля с вещественными числами (heart_rate и calories_burned) должны быть выведены с точностью до сотых.
